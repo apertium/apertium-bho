@@ -10,7 +10,6 @@ TARGETS_COMMON =			\
 	$(LANG1).automorf.att.gz	\
 	$(LANG1).autogen.bin		\
 	$(LANG1).autogen.att.gz		\
-	$(LANG1).autopgen.bin		\
 	$(LANG1).prob                   \
 	$(LANG1).rlx.bin
 
