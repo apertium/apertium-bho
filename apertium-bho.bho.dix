@@ -405,6 +405,27 @@
     <e>       <p><l>वत</l><r><s n="vblex"/><s n="iv"/><s n="impf"/><s n="f"/><s n="sg"/></r></p></e>
   </pardef>
 
+  <pardef n="अनटी__n_f"> <!--जड__n_f-->
+    <e><p><l></l><r><s n="n"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
+     <e><p><l></l><r><s n="n"/><s n="f"/><s n="sg"/><s n="obl"/></r></p></e>
+     <e><p><l>ें</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
+     <e><p><l>ों</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="obl"/></r></p></e>
+  </pardef>
+
+  <pardef n="उनती__n_f"> <!--pardef n="नति__n_f"-->
+    <e><p><l></l><r><s n="n"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
+     <e><p><l></l><r><s n="n"/><s n="f"/><s n="sg"/><s n="obl"/></r></p></e>
+     <e><p><l>याँ</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
+     <e><p><l>यों</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="obl"/></r></p></e>
+  </pardef>
+
+  <pardef n="काथा__n_f"> <!--pardef n="बला__n_f"-->
+    <e><p><l></l><r><s n="n"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
+    <e><p><l></l><r><s n="n"/><s n="f"/><s n="sg"/><s n="obl"/></r></p></e>
+    <e><p><l>एँ</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
+    <e><p><l>ओं</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="obl"/></r></p></e>
+</pardef>
+
   </pardefs>
 
    
@@ -575,6 +596,23 @@
     <e lm="अपना"><i>अपन</i><par n="स/ा__adj"/></e>
     <e lm="बोल"><i>बोल</i><par n="बोल__vblex_tv"/></e>
 
+    <!--1 Jun-->
+    <e lm="अँचरा"><i>अँचरा</i><par n="हाथ__n"/></e>
+    <e lm="अदत"><i>अदत</i><par n="ऐ__n_f"/></e>
+    <e lm="अहेर"><i>अहेर</i><par n="हाथ__n"/></e>
+    <e lm="असरा"><i>असरा</i><par n="ध/ा__n_m"/></e>
+    <e lm="अरविंद"><i>अरविंद</i><par n="हाथ__n"/></e>
+    <e lm="अनसन"><i>अनसन</i><par n="हाथ__n"/></e>
+    <e lm="अधवा"><i>अधवा</i><par n="ऐ__n_f"/></e>
+    <e lm="अनटी"><i>अनटी</i><par n="अनटी__n_f"/></e>
+    <e lm="अपासी"><i>अपासी</i><par n="ऐ__n_f"/></e>
+    <e lm="आड़ा"><i>आड़ा</i><par n="ऐ__n_f"/></e>
+    <e lm="उनती"><i>उनती</i><par n="उनती__n_f"/></e>
+    <e lm="उलथा"><i>उलथा</i><par n="हाथ__n"/></e>
+    <e lm="ओकील"><i>वकील</i><par n="हाथ__n"/></e>
+    <e lm="ओजन"><i>ओजन</i><par n="ऐ__n_m"/></e>
+    <e lm="काथा"><i>काथा</i><par n="काथा__n_f"/></e>  
+    <e lm="कान्ह"><i>कान्ह</i><par n="ध/ा__n_m"/></e>
   </section>
 </dictionary>
 
