@@ -41,7 +41,6 @@
     <sdef n="vaux"		c="auxiliary verb" />
     <sdef n="fut"    c="Future"/>
     <sdef n="cnjcoo"  c="Co-ordinating conjunction"/>
-    <sdef n="post"    c="Postposition"/> 
     <sdef n="gen"     c="Genitive"/>
     <sdef n="aa"      c="Animate"/>
     <sdef n="iv"     c="intransitive"/>
@@ -64,9 +63,41 @@
     <sdef n="fam"          c="Familiar"/>    
     <sdef n="infml"        c="Informal"/>    
     <sdef n="pol"          c="Polite"/> 
+    <sdef n="pr"      c="Preposition"/>
+    <sdef n="post"    c="Postposition"/> 
     
    </sdefs>
    <pardefs>
+
+    <!--PREPOSITION-->
+
+    <pardef n="के__pr">
+      <e><p><l></l><r><s n="pr"/></r></p></e>
+    </pardef> 
+
+    <!--POSTPOSITION-->
+
+    <pardef n="से__post">
+      <e><p><l></l><r><s n="post"/></r></p></e>
+    </pardef>
+
+    <!--CONJUNCTION-->
+
+    <pardef n="और__cnjcoo">
+      <e><p><l></l><r><s n="cnjcoo"/></r></p></e>
+    </pardef>
+
+    <pardef n="__gen_endings">
+      <e><p><l>का</l><r>का<s n="post"/><s n="gen"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>के</l><r>का<s n="post"/><s n="gen"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>की</l><r>का<s n="post"/><s n="gen"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>की</l><r>का<s n="post"/><s n="gen"/><s n="f"/><s n="pl"/></r></p></e>
+    </pardef>
+
+    <pardef n="दोनों__det">
+      <e><p><l></l><r><s n="det"/><s n="ind"/><s n="pl"/></r></p></e>
+    </pardef>
+
     <pardef n="जेम्स__np">
       <e><p><l></l><r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
     </pardef> 
@@ -279,26 +310,6 @@
       <e>       <p><l>ा</l><r><s n="vaux"/><s n="perf"/><s n="m"/><s n="sg"/></r></p></e>
     </pardef>  
 
-
-    <pardef n="और__cnjcoo">
-      <e><p><l></l><r><s n="cnjcoo"/></r></p></e>
-    </pardef>
-
-    <pardef n="__gen_endings">
-      <e><p><l>का</l><r>का<s n="post"/><s n="gen"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>के</l><r>का<s n="post"/><s n="gen"/><s n="m"/><s n="pl"/></r></p></e>
-      <e><p><l>की</l><r>का<s n="post"/><s n="gen"/><s n="f"/><s n="sg"/></r></p></e>
-      <e><p><l>की</l><r>का<s n="post"/><s n="gen"/><s n="f"/><s n="pl"/></r></p></e>
-    </pardef>
-
-    <pardef n="ने__post">
-      <e><p><l></l><r><s n="post"/></r></p></e>
-    </pardef>
-
-    <pardef n="दोनों__det">
-      <e><p><l></l><r><s n="det"/><s n="ind"/><s n="pl"/></r></p></e>
-    </pardef>
-
     <pardef n="आप__prn">
       <e><p><l></l><r><s n="prn"/><s n="pers"/><s n="p2"/><s n="pl"/><s n="frm"/><s n="nom"/></r></p></e>
       <e><p><l></l><r><s n="prn"/><s n="pers"/><s n="p2"/><s n="pl"/><s n="frm"/><s n="obl"/></r></p></e>
@@ -431,6 +442,43 @@
    
    <section id="main" type="standard">
 
+    <!-- SECTION: Postpositions -->
+    <e lm="सिवा"><i>सिवा</i><par n="से__post"/></e>
+    <e lm="संगे"><i>संगे</i><par n="से__post" /></e>
+    <e lm="में"><i>में</i><par n="से__post" /></e>
+    <e lm="के"><i>के</i><par n="से__post"/></e>
+    <e lm="पिछले"><i>पिछले</i><par n="से__post"/></e>
+    <e lm="के नीचे"><i>के<b/>नीचे</i><par n="से__post"/></e>
+    <e lm="पढ़े"><i>पढ़े</i><par n="से__post"/></e>
+    <e lm="लगे"><i>लगे</i><par n="से__post"/></e>
+    <e lm="खातिर"><i>खातिर</i><par n="से__post"/></e>
+    <e lm="का"><i>का</i><par n="से__post"/></e>
+    <e lm="वाला"><i>वाला</i><par n="से__post"/></e>
+    <e lm="ओके"><i>ओके</i><par n="से__post"/></e>
+    <e lm="जाके"><i>जाके</i><par n="से__post"/></e>
+    <e lm="लेके"><i>लेके</i><par n="से__post"/></e>
+    <e lm="उठाके"><i>उठाके</i><par n="से__post"/></e>
+    <e lm="साथे"><i>साथे</i><par n="से__post"/></e>
+    <e lm="करेके"><i>करेके</i><par n="से__post"/></e>
+    <e lm="पढ़िके"><i>पढ़िके</i><par n="से__post"/></e>
+    <e lm="लगावेके"><i>लगावेके</i><par n="से__post"/></e>
+    <e lm="ले"><i>ले</i><par n="से__post"/></e>
+    <e lm="लोग"><i>लोग</i><par n="से__post"/></e>
+    <e lm="खड़े"><i>खड़े</i><par n="से__post"/></e>
+    <e lm="पटे"><i>पटे</i><par n="से__post"/></e>
+    <e lm="डाले"><i>डाले</i><par n="से__post"/></e>
+    <e lm="पहिलहीं"><i>पहिलहीं</i><par n="से__post"/></e>
+    <e lm="मोड"><i>मोड</i><par n="से__post"/></e>
+    <e lm="वाले"><i>वाले</i><par n="से__post"/></e>
+    <e lm="कहिके"><i>कहिके</i><par n="से__post"/></e>
+    <e lm="जाएके"><i>जाएके</i><par n="से__post"/></e>
+    <e lm="जमिके"><i>जमिके</i><par n="से__post"/></e>
+    <e lm="पर"><i>पर</i><par n="से__post"/></e>
+    <e lm="तबे"><i>तबे</i><par n="से__post"/></e>
+    <e lm="अतने"><i>अतने</i><par n="से__post"/></e>
+
+    
+
     <e lm="मैरी"><i>मैरी</i><par n="मैरी__np"/></e>
     <e lm="जेम्स"><i>जेम्स</i><par n="जेम्स__np"/></e>
     
@@ -510,7 +558,7 @@
     <e lm="नीक"><i>नीक</i><par n="लघु__adj" /></e>
     
     <e lm="एक"><i>एक</i><par n="एक__det"/></e>
-    <e lm="साथ"><i>साथ</i><par n="ने__post" /></e>
+    
     <e lm="ऐगो"><i>ऐगो</i><par n="एक__num" /></e>
     <e lm="छै"><i>छै</i><par n="एक__num" /></e>
     <e lm="लइका"><i>लइका</i><par n="हाथ__n" /></e>
@@ -531,8 +579,7 @@
 
     <e lm="छोटाई"><i>छोटाई</i><par n="गलत__adv" /></e>
     <e lm="बहिन"><i>बहिन</i><par n="ऐ__n_f" /></e>
-    <e lm="में"><i>में</i><par n="ने__post" /></e>
-    <e lm="संगे"><i>संगे</i><par n="ने__post" /></e>
+    
     <e lm="खुस"><i>खुस</i><par n="गलत__adj" /></e>
 
     <e lm="बिलार"><i>बिलार</i><par n="कहनी__n"/></e>
@@ -550,7 +597,7 @@
     <e lm="समापन"><i>समापन</i><par n="ऐ__n_m"/></e>
     <e lm="ऐने"><i>ऐने</i><par n="गलत__adv"/></e>
     <e lm="ओने"><i>ओने</i><par n="गलत__adv"/></e>
-    <e lm="के"><i>के</i><par n="ने__post"/></e>
+    
     <e lm="खोज"><i>खोज</i><par n="बोल__vblex_tv"/></e>
     <e lm="आप"><i>आप</i><par n="आप__prn"/></e>
 
@@ -560,7 +607,7 @@
     <e lm="जवाब"><i>जवाब</i><par n="हाथ__n"/></e>
     <e lm="लोगो"><i>लोगो</i><par n="हाथ__n"/></e>
 
-    <e lm="पिछले"><i>पिछले</i><par n="ने__post"/></e>
+    
     <e lm="बानी"><i></i><par n="/बानी__vbser"/></e>
     <e lm="हँसुआ"><i>हँसुआ</i><par n="चल__vblex_iv"/></e>
     <e lm="कि"><i>कि</i><par n="कि__cnjsub"/></e>
@@ -572,7 +619,7 @@
     <e lm="कोशिश"><i>कोशिश</i><par n="हाथ__n"/></e>
     <e lm="चौकी"><i>चौकी</i><par n="हाथ__n"/></e>
     <e lm="कुर्सी"><i>कुर्सी</i><par n="कहनी__n"/></e>
-    <e lm="के नीचे"><i>के<b/>नीचे</i><par n="ने__post"/></e>
+    
     <e lm="हर"><i>हर</i><par n="गलत__adj"/></e>
     <e lm="हर"><i>हर</i><par n="गलत__adv"/></e>
     <e lm="हर"><i>हर</i><par n="गलत__adv"/></e>
@@ -585,7 +632,6 @@
     <e lm="देखे"><i>देखे</i><par n="बोल__vblex_tv"/></e>
     <e lm="रहल"><i>रहल</i><par n="रहल__vaux_iv"/></e>
 
-    <e lm="ने"><i>ने</i><par n="ने__post"/></e>
     <e lm="तक"><i>तक</i><par n="लेकिन__cnjadv"/></e>
     <e lm="जान"><i>जान</i><par n="बोल__vblex_tv"/></e>
     <e lm="मालूम"><i>मालूम</i><par n="बोल__vblex_tv"/></e>
@@ -629,6 +675,8 @@
     <e lm="अजोग"><i>अजोग</i><par n="गलत__adj"/></e>
     <e lm="अटपटाह"><i>अटपटाह</i><par n="स/ा__adj"/></e>
     <e lm="अत"><i>अत</i><par n="गलत__adj"/></e>
+
+
 
   </section>
 </dictionary>
