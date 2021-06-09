@@ -41,6 +41,7 @@
     <sdef n="vaux"		c="auxiliary verb" />
     <sdef n="fut"    c="Future"/>
     <sdef n="cnjcoo"  c="Co-ordinating conjunction"/>
+    <sdef n="cnjsub"  c="Sub-ordinating conjunction"/>
     <sdef n="gen"     c="Genitive"/>
     <sdef n="aa"      c="Animate"/>
     <sdef n="iv"     c="intransitive"/>
@@ -48,7 +49,6 @@
     <sdef n="frm"	  c="formal"/>
     <sdef n="pers"     c="Personal"/>
     <sdef n="inf"     c="Infinitive"/>
-    <sdef n="cnjsub"  c="Sub-ordinating conjunction"/>
     <sdef n="erg"     c="Ergative"/> 
     <sdef n="impf"    c=" Imperfective participle"/>
     <sdef n="imp"    c="Imperative"/>
@@ -83,9 +83,10 @@
 
     <!--CONJUNCTION-->
 
-    <pardef n="और__cnjcoo">
+    <pardef n="आ__cnjcoo">
       <e><p><l></l><r><s n="cnjcoo"/></r></p></e>
     </pardef>
+
 
     <pardef n="__gen_endings">
       <e><p><l>का</l><r>का<s n="post"/><s n="gen"/><s n="m"/><s n="sg"/></r></p></e>
@@ -541,7 +542,7 @@
     <e lm="खेला"><i>खेला</i><par n="हाथ__n" /></e>
     <e lm="खेल"><i>खेल</i><par n="बोल__vblex_tv" /></e>
     <e lm="सकल"><i>सकल</i><par n="रहल__vaux" /></e>
-    <e lm="अउरी"><i>अउरी</i><par n="और__cnjcoo" /></e>
+    <e lm="अउरी"><i>अउरी</i><par n="आ__cnjcoo" /></e>
     <e lm="तब"><i>तब</i><par n="गलत__adv" /></e>
     <e lm="छोट"><i>छोट</i><par n="लघु__adj" /></e>
     <e lm="मूँड़"><i>मूँड़</i><par n="हाथ__n" /></e>
@@ -551,7 +552,7 @@
     <e lm="फुलवारी"><i>फुलवारी</i><par n="ऐ__n_m" /></e>
     <e lm="गरम"><i>गरम</i><par n="लघु__adj" /></e>
     <e lm="गरब"><i>गरब</i><par n="हाथ__n" /></e>
-    <e lm="लेकिन"><i>लेकिन</i><par n="और__cnjcoo" /></e>
+    <e lm="लेकिन"><i>लेकिन</i><par n="आ__cnjcoo" /></e>
     <e lm="लूलू"><i>लूलू</i><par n="लघु__adj" /></e>
     <e lm="खेलल"><i>खेलल</i><par n="बोल__vblex_tv" /></e>
     <e lm="खैका"><i>खैका</i><par n="हाथ__n" /></e>
@@ -612,7 +613,7 @@
     <e lm="हँसुआ"><i>हँसुआ</i><par n="चल__vblex_iv"/></e>
     <e lm="कि"><i>कि</i><par n="कि__cnjsub"/></e>
     <e lm="उन्होंने"><i></i><par n="/इ__prn"/></e>
-    <e lm="यद्यपि"><i>यद्यपि</i><par n="और__cnjcoo"/></e>
+    <e lm="यद्यपि"><i>यद्यपि</i><par n="आ__cnjcoo"/></e>
     <e lm="शायद"><i>शायद</i><par n="गलत__adv"/></e>
 
     <e lm="धीरे-धीरे"><i>धीरे-धीरे</i><par n="गलत__adv"/></e>
@@ -676,6 +677,19 @@
     <e lm="अटपटाह"><i>अटपटाह</i><par n="स/ा__adj"/></e>
     <e lm="अत"><i>अत</i><par n="गलत__adj"/></e>
 
+    <e lm="आ"><i>आ</i><par n="आ__cnjcoo"/></e>
+    <e lm="रउँआ"><i>रउँआ</i><par n="आ__cnjcoo"/></e>
+    <e lm="बाकिर"><i>बाकिर</i><par n="आ__cnjcoo"/></e>
+    <e lm="अउर"><i>अउर</i><par n="आ__cnjcoo"/></e>
+    <e lm="भा"><i>भा</i><par n="आ__cnjcoo"/></e>
+    <e lm="राउर"><i>राउर</i><par n="आ__cnjcoo"/></e>
+    <e lm="आखिर"><i>आखिर</i><par n="आ__cnjcoo"/></e>
+    <e lm="खम्भा"><i>खम्भा</i><par n="आ__cnjcoo"/></e>
+    <e lm="आउर"><i>आउर</i><par n="आ__cnjcoo"/></e>
+    <e lm="फगुआ"><i>फगुआ</i><par n="आ__cnjcoo"/></e>
+
+    
+   
 
 
   </section>
