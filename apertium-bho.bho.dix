@@ -373,7 +373,7 @@
     <e><p><l></l><r><s n="vblex"/><s n="iv"/><s n="stem"/></r></p></e>
   </pardef>
 
-  <pardef n="कि__cnjsub">
+  <pardef n="त__cnjsub">
     <e><p><l></l><r><s n="cnjsub"/></r></p></e>
   </pardef>
 
@@ -611,7 +611,7 @@
     
     <e lm="बानी"><i></i><par n="/बानी__vbser"/></e>
     <e lm="हँसुआ"><i>हँसुआ</i><par n="चल__vblex_iv"/></e>
-    <e lm="कि"><i>कि</i><par n="कि__cnjsub"/></e>
+    <e lm="त"><i>त</i><par n="त__cnjsub"/></e>
     <e lm="उन्होंने"><i></i><par n="/इ__prn"/></e>
     <e lm="यद्यपि"><i>यद्यपि</i><par n="आ__cnjcoo"/></e>
     <e lm="शायद"><i>शायद</i><par n="गलत__adv"/></e>
@@ -688,8 +688,16 @@
     <e lm="आउर"><i>आउर</i><par n="आ__cnjcoo"/></e>
     <e lm="फगुआ"><i>फगुआ</i><par n="आ__cnjcoo"/></e>
 
-    
-   
+    <e lm="कि"><i>कि</i><par n="त__cnjsub"/></e>
+    <e lm="तकले"><i>तकले</i><par n="त__cnjsub"/></e>
+    <e lm="बाकि"><i>बाकि</i><par n="त__cnjsub"/></e>
+    <e lm="आँखि"><i>आँखि</i><par n="त__cnjsub"/></e>
+    <e lm="काहे"><i>काहे</i><par n="त__cnjsub"/></e>
+    <e lm="प्रवृत्ति"><i>प्रवृत्ति</i><par n="त__cnjsub"/></e>
+    <e lm="निकलि"><i>निकलि</i><par n="त__cnjsub"/></e>
+    <e lm="लपकि"><i>लपकि</i><par n="त__cnjsub"/></e>
+    <e lm="काहेंकि"><i>काहेंकि</i><par n="त__cnjsub"/></e>
+    <e lm="कोच्चि"><i>कोच्चि</i><par n="त__cnjsub"/></e>
 
 
   </section>
