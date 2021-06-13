@@ -87,16 +87,22 @@
       <e><p><l></l><r><s n="cnjcoo"/></r></p></e>
     </pardef>
 
-
-    <pardef n="__gen_endings">
-      <e><p><l>का</l><r>का<s n="post"/><s n="gen"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>के</l><r>का<s n="post"/><s n="gen"/><s n="m"/><s n="pl"/></r></p></e>
-      <e><p><l>की</l><r>का<s n="post"/><s n="gen"/><s n="f"/><s n="sg"/></r></p></e>
-      <e><p><l>की</l><r>का<s n="post"/><s n="gen"/><s n="f"/><s n="pl"/></r></p></e>
+    <!--DETERMINERS-->
+    <pardef n="एह__det">
+      <e><p><l></l><r><s n="det"/><n="m"/><n="sg"/><n="nom"/><n="dem"/></r></p></e>
+      <e><p><l>में</l><r><s n="det"/><n="m"/><n="sg"/><n="obl"/><n="itg"/><n="dat"/><n="dem"/></r></p></e>
     </pardef>
 
-    <pardef n="दोनों__det">
+    <pardef n="दुन्नो__det">
       <e><p><l></l><r><s n="det"/><s n="ind"/><s n="pl"/></r></p></e>
+    </pardef>
+
+    <pardef n="कई__det">
+      <e><p><l></l><r><s n="det"/><s n="qnt"/><s n="pl"/></r></p></e>
+    </pardef>
+
+    <pardef n="सभे__det">
+      <e><p><l></l><r><s n="det"/><s n="obl"/><s n="itg"/><s n="sp"/></r></p></e>
     </pardef>
 
     <pardef n="जेम्स__np">
@@ -574,7 +580,6 @@
     <e lm="कुकुर"><i>कुकुर</i><par n="हाथ__n" /></e>
     <e lm="भी"><i>भी</i><par n="गलत__adv" /></e>
     <e lm="अब"><i>अब</i><par n="गलत__adv" /></e>
-    <e lm="दुन्नों"><i>दुन्नों</i><par n="दोनों__det" /></e>
     <e lm="लकम"><i>लकम</i><par n="कहनी__n" /></e>
     <e lm="बच्चों"><i>बच्चों</i><par n="हाथ__n" /></e>
 
@@ -668,6 +673,7 @@
     <e lm="अगम"><i>अगम</i><par n="स/ा__adj"/></e>
     <e lm="अगिआह"><i>अगिआह</i><par n="गलत__adj"/></e>
     <e lm="अगिला"><i>अगिला</i><par n="स/ा__adj"/></e>
+
     <e lm="अगूढ़"><i>अगूढ़</i><par n="गलत__adj"/></e>
     <e lm="अछम्य"><i>अछम्य</i><par n="गलत__adj"/></e>
     <e lm="अछम"><i>अछम</i><par n="गलत__adj"/></e>
@@ -699,6 +705,28 @@
     <e lm="काहेंकि"><i>काहेंकि</i><par n="त__cnjsub"/></e>
     <e lm="कोच्चि"><i>कोच्चि</i><par n="त__cnjsub"/></e>
 
+    <!--DETERMINERS-->
+    <e lm="एह"><i>एह</i><par n="एह__det"/></e>
+    <e lm="अइसन"><i>अइसन</i><par n="एह__det"/></e>
+    <e lm="जवन"><i>जवन</i><par n="एह__det"/></e>
+    <e lm="कतना"><i>कतना</i><par n="एह__det"/></e>
+    <e lm="कुछु"><i>कुछु</i><par n="एह__det"/></e>
+    <e lm="जवन"><i>जवन</i><par n="एह__det"/></e>
+    <e lm="ओह"><i>ओह</i><par n="एह__det" /></e>
+    <e lm="ओह"><i>ओह</i><par n="एह__det" /></e>
+    <e lm="दुन्नों"><i>दुन्नों</i><par n="दुन्नो__det" /></e>
+    <e lm="कई"><i>कई</i><par n="कई__det" /></e>
+    <e lm="अतना"><i>अतना</i><par n="कई__det" /></e>
+    <e lm="कम"><i>कम</i><par n="कई__det" /></e>
+    <e lm="जेकर"><i>जेकर</i><par n="कई__det" /></e>
+    <e lm="हर"><i>हर</i><par n="कई__det" /></e>
+    <e lm="ओकरा"><i>ओकरा</i><par n="कई__det" /></e> 
+    <e lm="अधिका"><i>अधिका</i><par n="कई__det" /></e>
+    <e lm="सभे"><i>सभे</i><par n="सभे__det" /></e>
+    <e lm="एही"><i>एही</i><par n="सभे__det" /></e>
+    <e lm="कवनो"><i>कवनो</i><par n="सभे__det" /></e>
+    <e lm="आजु"><i>आजु</i><par n="सभे__det" /></e>
+    <e lm="सब"><i>सब</i><par n="सभे__det" /></e>
 
   </section>
 </dictionary>
