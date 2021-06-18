@@ -24,8 +24,8 @@
     <sdef n="p1"/>
     <sdef n="pri"/>
     <sdef n="prn"/>
-    <sdef n="indef"   c="Indefinite" />
     <sdef n="ind"   c="Indefinite" />
+    <sdef n="qnt"   c="Quantitative" />
     <sdef n="det"     c="Determiner"/>
     <sdef n="cnjadv"  c="adverbial conjunction"/>
     <sdef n="num"/>
@@ -65,9 +65,42 @@
     <sdef n="pol"          c="Polite"/> 
     <sdef n="pr"      c="Preposition"/>
     <sdef n="post"    c="Postposition"/> 
+
+    <sdef n="cm"         c="Comma"/>
+    <sdef n="sent"       c="Sentence marker"/>
+    <sdef n="lpar"       c="Left parenthesis"/>
+    <sdef n="rpar"       c="Right parenthesis"/>
+    <sdef n="lquot"      c="Left quote"/>
+    <sdef n="rquot"      c="Right quote"/>
+    <sdef n="guio"       c="Hyphen"/>
     
    </sdefs>
    <pardefs>
+
+    <pardef n="separa">
+      <e><re>[.\?;:!।॥]</re><p><l/><r><s n="sent"/></r></p></e>
+    </pardef>
+
+    <pardef n="guio">
+      <e><re>[—\-]+</re><p><l></l><r><s n="guio"/></r></p></e>
+    </pardef>
+
+    <pardef n="coma">
+      <e><re>,</re><p><l></l><r><s n="cm"/></r></p></e>
+    </pardef>
+
+    <pardef n="quotes">
+      <e><re>[«]+</re><p><l></l><r><s n="lquot"/></r></p></e>
+      <e><re>[»]+</re><p><l></l><r><s n="rquot"/></r></p></e>
+    </pardef>
+
+    <pardef n="paresq">
+      <e><re>[\(\[]</re><p><l></l><r><s n="lpar"/></r></p></e>
+    </pardef>
+
+    <pardef n="pardret">
+      <e><re>[\)\]]</re><p><l></l><r><s n="rpar"/></r></p></e>
+    </pardef>
 
     <!--PREPOSITION-->
 
@@ -89,8 +122,8 @@
 
     <!--DETERMINERS-->
     <pardef n="एह__det">
-      <e><p><l></l><r><s n="det"/><n="m"/><n="sg"/><n="nom"/><n="dem"/></r></p></e>
-      <e><p><l>में</l><r><s n="det"/><n="m"/><n="sg"/><n="obl"/><n="itg"/><n="dat"/><n="dem"/></r></p></e>
+      <e><p><l></l><r><s n="det"/><s n="m"/><s n="sg"/><s n="nom"/><s n="dem"/></r></p></e>
+      <e><p><l>में</l><r><s n="det"/><s n="m"/><s n="sg"/><s n="obl"/><s n="itg"/><s n="dat"/><s n="dem"/></r></p></e>
     </pardef>
 
     <pardef n="दुन्नो__det">
@@ -368,7 +401,7 @@
     </pardef>
 
     <pardef n="एक__det">
-      <e><p><l></l><r><s n="det"/><s n="indef"/></r></p></e>
+      <e><p><l></l><r><s n="det"/><s n="ind"/></r></p></e>
     </pardef>
 
     <pardef n="छोट__adj">
@@ -729,6 +762,17 @@
     <e lm="सब"><i>सब</i><par n="सभे__det" /></e>
 
   </section>
+  <section id="final" type="inconditional">
+    <!-- Punctuation -->
+    <e><par n="coma"/></e>
+    <e><par n="separa"/></e>
+    <e><par n="guio"/></e>
+    <e><par n="numeros"/></e>
+    <e><par n="paresq"/></e>
+    <e><par n="pardret"/></e>
+    <e><par n="quotes"/></e>
+  </section>
+
 </dictionary>
 
 
