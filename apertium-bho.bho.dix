@@ -146,6 +146,10 @@
       <e><p><l></l><r><s n="det"/><s n="obl"/><s n="itg"/><s n="sp"/></r></p></e>
     </pardef>
 
+    <pardef n="ओकर__det">
+      <e><p><l></l><r><s n="det"/><s n="dem"/><s n="sg"/><s n="dist"/><s n="gen"/></r></p></e>
+    </pardef> 
+
     <!--NUMERALS-->
 
     <pardef n="एक__num">
@@ -279,6 +283,29 @@
       <e><p><l>में</l><r><s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="loc"/></r></p></e>
       <e><p><l>से</l><r><s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="obl"/></r></p></e>
     </pardef>
+
+    <pardef n="/जवन__prn">       
+      <e><p><l>जवन</l><r>जवन<s n="prn"/><s n="rel"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l>जवन</l><r>जवन<s n="prn"/><s n="rel"/><s n="pl"/><s n="nom"/></r></p></e>
+ 	    <e><p><l>जवन</l><r>जवन<s n="prn"/><s n="rel"/><s n="sg"/><s n="obl"/></r></p></e>
+      <e><p><l>जे</l><r>जवन<s n="prn"/><s n="rel"/><s n="pl"/><s n="obl"/></r></p></e>
+      <e><p><l>जेकरासे</l><r>जवन<s n="prn"/><s n="rel"/><s n="sg"/><s n="ins"/></r></p></e>
+      <e><p><l>जेकरासे</l><r>जवन<s n="prn"/><s n="rel"/><s n="pl"/><s n="ins"/></r></p></e>
+      <e><p><l>जेकराके</l><r>जवन<s n="prn"/><s n="rel"/><s n="sg"/><s n="dat"/></r></p></e>
+      <e><p><l>जेकराके</l><r>जवन<s n="prn"/><s n="rel"/><s n="pl"/><s n="dat"/></r></p></e>
+      <e><p><l>जेकर</l><r>जवन<s n="prn"/><s n="rel"/><s n="f"/><s n="sg"/><s n="gen"/></r></p></e>
+      <e><p><l>जेकर</l><r>जवन<s n="prn"/><s n="rel"/><s n="mf"/><s n="sg"/><s n="gen"/></r></p></e>
+      <e><p><l>जेकर</l><r>जवन<s n="prn"/><s n="rel"/><s n="m"/><s n="sg"/><s n="gen"/></r></p></e>
+      <e><p><l>जेकर</l><r>जवन<s n="prn"/><s n="rel"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
+      <e><p><l>जेकर</l><r>जवन<s n="prn"/><s n="rel"/><s n="mf"/><s n="pl"/><s n="gen"/></r></p></e>
+      <e><p><l>जेकर</l><r>जवन<s n="prn"/><s n="rel"/><s n="m"/><s n="pl"/><s n="gen"/></r></p></e>
+      <e><p><l>जे</l><r>जवन<s n="prn"/><s n="rel"/><s n="sg"/><s n="erg"/></r></p></e>
+      <e><p><l>जवन</l><r>जवन<s n="prn"/><s n="rel"/><s n="pl"/><s n="erg"/></r></p></e>
+      <e><p><l>जइमें</l><r>जवन<s n="prn"/><s n="rel"/><s n="sg"/><s n="loc"/></r></p></e>
+	    <e><p><l>जइमे</l><r>जवन<s n="prn"/><s n="rel"/><s n="sg"/><s n="loc"/></r></p></e>
+ 	    <e><p><l>जेकरामें</l><r>जवन<s n="prn"/><s n="rel"/><s n="pl"/><s n="loc"/></r></p></e>	
+	    <e><p><l>जेकरामे</l><r>जवन<s n="prn"/><s n="rel"/><s n="pl"/><s n="loc"/></r></p></e>
+     </pardef>
 
     <pardef n="तुंह_लोग__prn">
       <e><p><l>तुंह लोग</l><r>तुंह लोग<s n="prn"/><s n="pers"/><s n="p2"/><s n="pl"/><s n="frm"/><s n="nom"/></r></p></e>
@@ -767,7 +794,6 @@
     <e lm="खैका"><i>खैका</i><par n="हाथ__n"/></e>
     <e lm="नीक"><i>नीक</i><par n="लघु__adj"/></e>
     
-    <e lm="एक"><i>एक</i><par n="एक__det"/></e>
     <e lm="लइका"><i>लइका</i><par n="हाथ__n"/></e>
     <e lm="साल"><i>साल</i><par n="हाथ__n"/></e>
     <e lm="ना"><i>ना</i><par n="गलत__adv"/></e>
@@ -900,9 +926,11 @@
     <e lm="कोच्चि"><i>कोच्चि</i><par n="त__cnjsub"/></e>
 
     <!--DETERMINERS-->
+    <e lm="एक"><i>एक</i><par n="एक__det"/></e>
     <e lm="एह"><i>एह</i><par n="एह__det"/></e>
     <e lm="अइसन"><i>अइसन</i><par n="एह__det"/></e>
     <e lm="जवन"><i>जवन</i><par n="एह__det"/></e>
+    <e lm="जवना"><i>जवना</i><par n="एह__det"/></e>
     <e lm="कतना"><i>कतना</i><par n="एह__det"/></e>
     <e lm="कुछु"><i>कुछु</i><par n="एह__det"/></e>
     
@@ -912,6 +940,7 @@
     <e lm="अतना"><i>अतना</i><par n="कई__det"/></e>
     <e lm="कम"><i>कम</i><par n="कई__det"/></e>
     <e lm="जेकर"><i>जेकर</i><par n="कई__det"/></e>
+    <e lm="जेकरा"><i>जेकरा</i><par n="कई__det"/></e>
     <e lm="हर"><i>हर</i><par n="कई__det"/></e>
     <e lm="ओकरा"><i>ओकरा</i><par n="कई__det"/></e> 
     <e lm="अधिका"><i>अधिका</i><par n="कई__det"/></e>
@@ -920,7 +949,8 @@
     <e lm="एही"><i>एही</i><par n="सभे__det"/></e>
     <e lm="कवनो"><i>कवनो</i><par n="सभे__det"/></e>
     <e lm="आजु"><i>आजु</i><par n="सभे__det"/></e>
-    <e lm="सब"><i>सब</i><par n="सभे__det"/></e>
+    <e lm="सब"><i>सब</i><par n="सभे__det"/></e> 
+    <e lm="ओकर"><i>ओकर</i><par n="ओकर__det"/></e>
 
     <!--NUMERALS-->
     
@@ -948,6 +978,7 @@
     <e lm="सब"><i>सब</i><par n="सब__prn"/></e>
     <e lm="ख़ुद"><i>ख़ुद</i><par n="सब__prn"/></e>
     <e lm="आप"><i>आप</i><par n="आप__prn"/></e>
+    <e lm="जवन"><i></i><par n="/जवन__prn"/></e>
 
     <e lm="तुंह लोग"><i>तुंह<b/>लोग</i><par n="तुंह_लोग__prn"/></e>
     <e lm="हम को"><i>हम<b/>को</i><par n="हम_को__prn"/></e>
