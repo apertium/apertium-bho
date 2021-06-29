@@ -139,7 +139,7 @@
     </pardef>
 
     <pardef n="कई__det">
-      <e><p><l></l><r><s n="det"/><s n="qnt"/><s n="pl"/></r></p></e>
+      <e><p><l></l><r><s n="det"/><s n="ind"/><s n="sp"/></r></p></e>
     </pardef>
 
     <pardef n="सभे__det">
@@ -929,9 +929,9 @@
     <e lm="एक"><i>एक</i><par n="एक__det"/></e>
     <e lm="एह"><i>एह</i><par n="एह__det"/></e>
     <e lm="अइसन"><i>अइसन</i><par n="एह__det"/></e>
-    <e lm="जवन"><i>जवन</i><par n="एह__det"/></e>
-    <e lm="जवना"><i>जवना</i><par n="एह__det"/></e>
-    <e lm="कतना"><i>कतना</i><par n="एह__det"/></e>
+    <e lm="जवन"><i>जवन</i><par n="कई__det"/></e>
+    <e lm="जवना"><i>जवना</i><par n="कई__det"/></e>
+    <e lm="कतना"><i>कतना</i><par n="कई__det"/></e>
     <e lm="कुछु"><i>कुछु</i><par n="एह__det"/></e>
     
     <e lm="दुन्नों"><i>दुन्नों</i><par n="दुन्नो__det"/></e>
@@ -967,7 +967,14 @@
     <e lm="तिसरका"><i>तिसर</i><par n="पहल/का__ord"/></e>
     <e lm="दोसरका"><i>दोसर</i><par n="पहल/का__ord"/></e>
     <e lm="पहलका"><i>पहल</i><par n="पहल/का__ord"/></e>
-    <e lm="एक"><i>एक</i><par n="एक__num"/></e>
+    <e lm="शून्य"><i>शून्य</i><par n="एक__num"/></e>
+    <e lm="सिफर"><i>सिफर</i><par n="एक__num"/></e>
+    <e lm="तीन"><i>तीन</i><par n="एक__num"/></e>
+    <e lm="पांच"><i>पांच</i><par n="एक__num"/></e>
+    <e lm="सात"><i>सात</i><par n="एक__num"/></e>
+    <e lm="नौ"><i>नौ</i><par n="एक__num"/></e>
+    <e lm="दस"><i>दस</i><par n="एक__num"/></e>
+
 
     <!--PRONOUNS-->
 
