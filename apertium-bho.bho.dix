@@ -138,8 +138,8 @@
       <e><p><l></l><r><s n="det"/><s n="ind"/><s n="pl"/></r></p></e>
     </pardef>
 
-    <pardef n="कई__det">
-      <e><p><l></l><r><s n="det"/><s n="ind"/><s n="sp"/></r></p></e>
+    <pardef n="कोई__det">
+      <e>       <p><l></l><r><s n="det"/><s n="ind"/><s n="sp"/></r></p></e>
     </pardef>
 
     <pardef n="सभे__det">
@@ -149,6 +149,10 @@
     <pardef n="ओकर__det">
       <e><p><l></l><r><s n="det"/><s n="dem"/><s n="sg"/><s n="dist"/><s n="gen"/></r></p></e>
     </pardef> 
+
+    <pardef n="कई__det">
+      <e><p><l></l><r><s n="det"/><s n="qnt"/><s n="pl"/></r></p></e>
+    </pardef>
 
     <!--NUMERALS-->
 
@@ -929,21 +933,21 @@
     <e lm="एक"><i>एक</i><par n="एक__det"/></e>
     <e lm="एह"><i>एह</i><par n="एह__det"/></e>
     <e lm="अइसन"><i>अइसन</i><par n="एह__det"/></e>
-    <e lm="जवन"><i>जवन</i><par n="कई__det"/></e>
-    <e lm="जवना"><i>जवना</i><par n="कई__det"/></e>
-    <e lm="कतना"><i>कतना</i><par n="कई__det"/></e>
+    <e lm="जवन"><i>जवन</i><par n="कोई__det"/></e>
+    <e lm="जवना"><i>जवना</i><par n="कोई__det"/></e>
+    <e lm="कतना"><i>कतना</i><par n="कोई__det"/></e>
     <e lm="कुछु"><i>कुछु</i><par n="एह__det"/></e>
     
     <e lm="दुन्नों"><i>दुन्नों</i><par n="दुन्नो__det"/></e>
     
     <e lm="कई"><i>कई</i><par n="कई__det"/></e>
-    <e lm="अतना"><i>अतना</i><par n="कई__det"/></e>
-    <e lm="कम"><i>कम</i><par n="कई__det"/></e>
-    <e lm="जेकर"><i>जेकर</i><par n="कई__det"/></e>
-    <e lm="जेकरा"><i>जेकरा</i><par n="कई__det"/></e>
-    <e lm="हर"><i>हर</i><par n="कई__det"/></e>
-    <e lm="ओकरा"><i>ओकरा</i><par n="कई__det"/></e> 
-    <e lm="अधिका"><i>अधिका</i><par n="कई__det"/></e>
+    <e lm="अतना"><i>अतना</i><par n="कोई__det"/></e>
+    <e lm="कम"><i>कम</i><par n="कोई__det"/></e>
+    <e lm="जेकर"><i>जेकर</i><par n="कोई__det"/></e>
+    <e lm="जेकरा"><i>जेकरा</i><par n="कोई__det"/></e>
+    <e lm="हर"><i>हर</i><par n="कोई__det"/></e>
+    <e lm="ओकरा"><i>ओकरा</i><par n="कोई__det"/></e> 
+    <e lm="अधिका"><i>अधिका</i><par n="कोई__det"/></e>
     
     <e lm="सभे"><i>सभे</i><par n="सभे__det"/></e>
     <e lm="एही"><i>एही</i><par n="सभे__det"/></e>
