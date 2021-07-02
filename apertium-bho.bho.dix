@@ -689,6 +689,7 @@
    <section id="main" type="standard">
 
     <!-- SECTION: Postpositions -->
+    <e lm="से"><i>से</i><par n="से__post"/></e>
     <e lm="सिवा"><i>सिवा</i><par n="से__post"/></e>
     <e lm="संगे"><i>संगे</i><par n="से__post"/></e>
     <e lm="में"><i>में</i><par n="से__post"/></e>
@@ -722,8 +723,7 @@
     <e lm="पर"><i>पर</i><par n="से__post"/></e>
     <e lm="तबे"><i>तबे</i><par n="से__post"/></e>
     <e lm="अतने"><i>अतने</i><par n="से__post"/></e>
-
-    
+    <e lm="के लिए"><i>के<b/>लिए</i><par n="से__post"/></e>
 
     <e lm="मैरी"><i>मैरी</i><par n="मैरी__np"/></e>
     <e lm="जेम्स"><i>जेम्स</i><par n="जेम्स__np"/></e>
