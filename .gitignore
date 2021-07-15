@@ -21,3 +21,4 @@
 /config.in
 /config
 bho.prob
+/test/*-output.txt
