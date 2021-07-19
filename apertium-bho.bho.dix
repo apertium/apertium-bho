@@ -162,9 +162,6 @@
 
     <pardef n="दोसर__num">
       <e><p><l></l><r><s n="num"/></r></p></e>
-      <e><p><l></l><r><s n="num"/><s n="ord"/><s n ="m"/></r></p></e>
-      <e><p><l></l><r><s n="num"/><s n="ord"/><s n ="f"/></r></p></e>
-      <e><p><l>ा</l><r><s n="num"/><s n="ord"/><s n ="mf"/></r></p></e>
     </pardef>
 
     <pardef n="पहिल/ा__adj">
