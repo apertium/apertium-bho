@@ -50,11 +50,12 @@
     <sdef n="pers"     c="Personal"/>
     <sdef n="inf"     c="Infinitive"/>
     <sdef n="erg"     c="Ergative"/> 
+    <sdef n="past"    c="Past tense"/> 
     <sdef n="impf"    c=" Imperfective participle"/>
     <sdef n="imp"    c="Imperative"/>
     <sdef n="perf"     c="Perfective participle"/>
     <sdef n="mfn"/>
-    <sdef n="sp"      c=""/> 
+    <sdef n="sp"      c="Singular / plural"/> 
     <sdef n="prs"    c="Subjunctive"/>  
     <sdef n="dat"     c="Dative"/>  
     <sdef n="acc"      c="accusative"/> 
@@ -466,10 +467,10 @@
       <e><p><l>होत</l><r>बानी<s n="vbser"/><s n="impf"/><s n="f"/><s n="pl"/></r></p></e>
       <e><p><l>होके</l><r>बानी<s n="vbser"/><s n="gna"/></r></p></e>
 
-      <e><p><l>रहलन</l><r>बानी<s n="vbser"/><s n="impf"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>रहले</l><r>बानी<s n="vbser"/><s n="impf"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
-      <e><p><l>रहलन</l><r>बानी<s n="vbser"/><s n="impf"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
-      <e><p><l>रहले</l><r>बानी<s n="vbser"/><s n="impf"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
+      <e><p><l>रहलन</l><r>बानी<s n="vbser"/><s n="past"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>रहले</l><r>बानी<s n="vbser"/><s n="past"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>रहलन</l><r>बानी<s n="vbser"/><s n="past"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>रहले</l><r>बानी<s n="vbser"/><s n="past"/><s n="m"/><s n="sg"/></r></p></e>
     </pardef>
 
     <pardef n="हाथ__n_m">
