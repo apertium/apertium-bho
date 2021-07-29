@@ -143,10 +143,6 @@
       <e>       <p><l></l><r><s n="det"/><s n="ind"/><s n="sp"/></r></p></e>
     </pardef>
 
-    <pardef n="सभे__det">
-      <e><p><l></l><r><s n="det"/><s n="obl"/><s n="itg"/><s n="sp"/></r></p></e>
-    </pardef>
-
     <pardef n="ओकर__det">
       <e><p><l></l><r><s n="det"/><s n="dem"/><s n="sg"/><s n="dist"/><s n="gen"/></r></p></e>
     </pardef> 
@@ -1020,12 +1016,6 @@
     <e lm="हर"><i>हर</i><par n="कोई__det"/></e>
     <e lm="ओकरा"><i>ओकरा</i><par n="कोई__det"/></e> 
     <e lm="अधिका"><i>अधिका</i><par n="कोई__det"/></e>
-    
-    <e lm="सभे"><i>सभे</i><par n="सभे__det"/></e>
-    <e lm="एही"><i>एही</i><par n="सभे__det"/></e>
-    <e lm="कवनो"><i>कवनो</i><par n="सभे__det"/></e>
-    <e lm="आजु"><i>आजु</i><par n="सभे__det"/></e>
-    <e lm="सब"><i>सब</i><par n="सभे__det"/></e> 
     <e lm="ओकर"><i>ओकर</i><par n="ओकर__det"/></e>
 
     <!--NUMERALS-->
