@@ -35,6 +35,7 @@
     <sdef n="p2"      c="Second person"/>     
     <sdef n="p3"      c="Third person"/> 
     <sdef n="obl"     c="Oblique"/> 
+    <sdef n="pos"     c="Possessive"/>
     <sdef n="dist"     c="Distant"/>
     <sdef n="tv"		c="" />
     <sdef n="stem"  c="stem"/>
@@ -320,6 +321,14 @@
  	    <e><p><l>जेकरामें</l><r>जवन<s n="prn"/><s n="rel"/><s n="pl"/><s n="loc"/></r></p></e>	
 	    <e><p><l>जेकरामे</l><r>जवन<s n="prn"/><s n="rel"/><s n="pl"/><s n="loc"/></r></p></e>
      </pardef>
+
+    <pardef n="अपन/ा__prn">
+      <e><p><l>ा</l><r>ा<s n="prn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>ी</l><r>ा<s n="prn"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>े</l><r>ा<s n="prn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>ी</l><r>ा<s n="prn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+      <e><p><l>े</l><r>ा<s n="prn"/><s n="pos"/><s n="pol"/><s n="m"/><s n="sg"/></r></p></e>
+	  </pardef>
 
     <pardef n="तुंह_लोग__prn">
       <e><p><l>तुंह लोग</l><r>तुंह लोग<s n="prn"/><s n="pers"/><s n="p2"/><s n="pl"/><s n="frm"/><s n="nom"/></r></p></e>
@@ -1560,9 +1569,15 @@
     <e lm="कारीगरी"><i>कारीगरी</i><par n="ऐ__n_f"/></e>
     <e lm="आज़ादी"><i>आज़ादी</i><par n="ऐ__n_f"/></e>
     <e lm="आजादी"><i>आजादी</i><par n="ऐ__n_f"/></e>
-    <e lm="महक"><i>महक</i><par n="ऐ__n_f"/></e>
+    <e lm="महक"><i>महक</i><par n="ऐ__n_f"/></e> 
 
-    
+    <e lm="अपना"><i>अपन</i><par n="अपन/ा__prn"/></e>
+    <e lm="हमारा"><i>हमार</i><par n="अपन/ा__prn"/></e>
+    <e lm="इसका"><i>इसक</i><par n="अपन/ा__prn"/></e>
+    <e lm="उनकरा"><i>उनकर</i><par n="अपन/ा__prn"/></e>
+    <e lm="ओकरा"><i>ओकर</i><par n="अपन/ा__prn"/></e>
+    <e lm="आपका"><i>आपक</i><par n="अपन/ा__prn"/></e>
+
     
 
   </section>
