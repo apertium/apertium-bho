@@ -297,6 +297,8 @@
  	     <e><p><l>इ</l><r>इ<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="nom"/></r></p></e>
        <e><p><l>इ</l><r>इ<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="nom"/></r></p></e>
  	     <e><p><l>ए</l><r>इ<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="obl"/></r></p></e>
+       <e><p><l>उनको</l><r>इ<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="obj"/></r></p></e>
+	    <e><p><l>उन<b/>लोगोंको</l><r>इ<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="obj"/></r></p></e>
        <e><p><l>इ</l><r>इ<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="obl"/></r></p></e>
        <e><p><l>ऐइसे</l><r>इ<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="ins"/></r></p></e>
        <e><p><l>इंकासे</l><r>इ<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="ins"/></r></p></e>
@@ -309,29 +311,30 @@
        <e><p><l>एकर</l><r>इ<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="gen"/></r></p></e>
        <e><p><l>एकर</l><r>इ<s n="prn"/><s n="dem"/><s n="p3"/><s n="m"/><s n="pl"/><s n="gen"/></r></p></e>
        <e><p><l>इ</l><r>इ<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="erg"/></r></p></e>
-       <e><p><l>इ लोग</l><r>इ<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="erg"/></r></p></e>
+       <e><p><l>इ<b/>लोग</l><r>इ<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="erg"/></r></p></e>
        <e><p><l>एइमें</l><r>इ<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="loc"/></r></p></e>
        <e><p><l>एइमें</l><r>इ<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="loc"/></r></p></e>	
-       <e><p><l>एइमें</l><r>इ<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="loc"/></r></p></e>	
-
- 	     <e><p><l>उ</l><r>इ<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="dist"/><s n="nom"/></r></p></e>
-       <e><p><l>उ लोग</l><r>इ<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="dist"/><s n="nom"/></r></p></e>
-       <e><p><l>उ</l><r>इ<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="dist"/><s n="obl"/></r></p></e>
-       <e><p><l>उनकर</l><r>इ<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="dist"/><s n="obl"/></r></p></e>
-       <e><p><l>उकरासे</l><r>इ<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="dist"/><s n="ins"/></r></p></e>
-       <e><p><l>उकरासे</l><r>इ<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="dist"/><s n="ins"/></r></p></e>
-       <e><p><l>उकरा</l><r>इ<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="dist"/><s n="dat"/></r></p></e>
-       <e><p><l>उ लोग</l><r>इ<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="dist"/><s n="dat"/></r></p></e>
-       <e><p><l>ओकर</l><r>इ<s n="prn"/><s n="dem"/><s n="p3"/><s n="f"/><s n="sg"/><s n="dist"/><s n="gen"/></r></p></e>
-       <e><p><l>ओकर</l><r>इ<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="dist"/><s n="obl"/><j/>का<s n="post"/><s n="gen"/><s n="m"/><s n="pl"/></r></p></e>
-       <e><p><l>ओकर</l><r>इ<s n="prn"/><s n="dem"/><s n="p3"/><s n="m"/><s n="sg"/><s n="dist"/><s n="gen"/></r></p></e>
-       <e><p><l>उनकी</l><r>इ<s n="prn"/><s n="dem"/><s n="p3"/><s n="f"/><s n="pl"/><s n="dist"/><s n="gen"/></r></p></e>
-       <e><p><l>ओकर</l><r>इ<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="dist"/><s n="obl"/><j/>का<s n="post"/><s n="gen"/><s n="m"/><s n="pl"/></r></p></e>
-       <e><p><l>ओकर</l><r>इ<s n="prn"/><s n="dem"/><s n="p3"/><s n="m"/><s n="pl"/><s n="dist"/><s n="gen"/></r></p></e>
-       <e><p><l>उ</l><r>इ<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="dist"/><s n="erg"/></r></p></e>
-       <e><p><l>उ लोग</l><r>इ<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="dist"/><s n="erg"/></r></p></e>
-       <e><p><l>ओइमें</l><r>इ<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="dist"/><s n="loc"/></r></p></e>
-       <e><p><l>ओइमें</l><r>इ<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="dist"/><s n="loc"/></r></p></e>	
+      </pardef>
+ 	     
+      <pardef n="/उ__prn">      
+       <e><p><l>उ</l><r>उ<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="nom"/></r></p></e>
+       <e><p><l>उ<b/>लोग</l><r>उ<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="nom"/></r></p></e>
+       <e><p><l>उ</l><r>उ<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="obl"/></r></p></e>
+       <e><p><l>उनकर</l><r>उ<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="obl"/></r></p></e>
+       <e><p><l>उकरासे</l><r>उ<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="ins"/></r></p></e>
+       <e><p><l>उकरासे</l><r>उ<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="ins"/></r></p></e>
+       <e><p><l>उकरा</l><r>उ<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="dat"/></r></p></e>
+       <e><p><l>उ<b/>लोग</l><r>उ<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="dat"/></r></p></e>
+       <e><p><l>ओकर</l><r>उ<s n="prn"/><s n="dem"/><s n="p3"/><s n="f"/><s n="sg"/><s n="gen"/></r></p></e>
+       <e><p><l>ओकर</l><r>उ<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="obl"/></r></p></e>
+       <e><p><l>ओकर</l><r>उ<s n="prn"/><s n="dem"/><s n="p3"/><s n="m"/><s n="sg"/><s n="gen"/></r></p></e>
+       <e><p><l>उनकी</l><r>उ<s n="prn"/><s n="dem"/><s n="p3"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
+       <e><p><l>ओकर</l><r>उ<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="obl"/></r></p></e>
+       <e><p><l>उनकरा</l><r>उ<s n="prn"/><s n="dem"/><s n="p3"/><s n="m"/><s n="pl"/><s n="gen"/></r></p></e>
+       <e><p><l>उ</l><r>उ<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="erg"/></r></p></e>
+       <e><p><l>उ<b/>लोग</l><r>उ<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="erg"/></r></p></e>
+       <e><p><l>ओइमें</l><r>उ<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="loc"/></r></p></e>
+       <e><p><l>ओइमें</l><r>उ<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="loc"/></r></p></e>	
      </pardef>
 
     <pardef n="/का__prn">       
@@ -1302,6 +1305,7 @@
     <e lm="ख़ुद"><i>ख़ुद</i><par n="सब__prn"/></e>
     <e lm="आप"><i>आप</i><par n="आप__prn"/></e>
     <e lm="जवन"><i></i><par n="/जवन__prn"/></e>
+    <e lm="उ"><i></i><par n="/उ__prn"/></e>
 
     <e lm="तुंह लोग"><i>तुंह<b/>लोग</i><par n="तुंह_लोग__prn"/></e>
     <e lm="हम को"><i>हम<b/>को</i><par n="हम_को__prn"/></e>
