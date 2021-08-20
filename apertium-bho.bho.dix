@@ -224,6 +224,11 @@
         <e><p><l>स<b/>सब</l><r><b/>सब<s n="det"/><s n="pos"/><s n="pol"/><s n="m"/><s n="sg"/></r></p></e>
 	</pardef>
 
+  <!-- deprecated, since a case tag shoud not be used as a subcategory, word is analysed as prn/ adj -->
+  <pardef n="सब__det">
+      <e><p><l></l><r><s n="det"/><s n="obl"/><s n="itg"/><s n="sp"/></r></p></e>
+  </pardef>
+
     <!--NUMERALS-->
 
     <pardef n="एक__num">
@@ -335,18 +340,16 @@
        <e><p><l>ओइमें</l><r>उ<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="loc"/></r></p></e>	
      </pardef>
 
-    <pardef n="/का__prn">       
-      <e><p><l>का</l><r>का<s n="prn"/><s n="itg"/><s n="mf"/><s n = "sp"/><s n="nom"/></r></p></e>
-      <e><p><l>केकर</l><r>का<s n="prn"/><s n="itg"/><s n="mf"/><s n = "sp"/><s n="obl"/></r></p></e>
-      <e><p><l>केसे</l><r>का<s n="prn"/><s n="itg"/><s n="mf"/><s n = "sp"/><s n="ins"/></r></p></e>
-      <e><p><l>केकरा</l><r>का<s n="prn"/><s n="itg"/><s n="mf"/><s n = "sp"/><s n="dat"/></r></p></e>
-      <e><p><l>केकर</l><r>का<s n="prn"/><s n="itg"/><s n="m"/><s n = "sp"/><s n="gen"/></r></p></e>
-      <e><p><l>केकर</l><r>का<s n="itg"/><s n="f"/><s n = "sp"/><s n="gen"/></r></p></e>
-      <e><p><l>केकर</l><r>का<s n="prn"/><s n="itg"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
-      <e><p><l>केकर</l><r>का<s n="prn"/><s n="itg"/><s n="mf"/><s n = "pl"/><s n="gen"/></r></p></e>
-      <e><p><l>केकर</l><r>का<s n="prn"/><s n="itg"/><s n="m"/><s n="pl"/><s n="gen"/></r></p></e>
-      <e><p><l>के</l><r>का<s n="prn"/><s n="itg"/><s n="mf"/><s n = "sp"/><s n="erg"/></r></p></e>
-      <e><p><l>कैमें</l><r>का<s n="prn"/><s n="itg"/><s n="mf"/><s n = "sp"/><s n="loc"/></r></p></e>	
+    <pardef n="/कीया__prn">       
+      <e><p><l>कीया</l><r>कीया<s n="prn"/><s n="itg"/><s n="mf"/><s n = "sp"/><s n="nom"/></r></p></e>
+      <e><p><l>केकर</l><r>कीया<s n="prn"/><s n="itg"/><s n="mf"/><s n = "sp"/><s n="obl"/></r></p></e>
+      <e><p><l>केसे</l><r>कीया<s n="prn"/><s n="itg"/><s n="mf"/><s n = "sp"/><s n="ins"/></r></p></e>
+      <e><p><l>केकरा</l><r>कीया<s n="prn"/><s n="itg"/><s n="mf"/><s n = "sp"/><s n="dat"/></r></p></e>     
+      <e><p><l>केकर</l><r>कीया<s n="prn"/><s n="itg"/><s n="m"/><s n = "sp"/><s n="gen"/></r></p></e>
+      <e><p><l>केकर</l><r>कीया<s n="prn"/><s n="itg"/><s n="f"/><s n = "sp"/><s n="gen"/></r></p></e>
+      <e><p><l>केकर</l><r>कीया<s n="prn"/><s n="itg"/><s n="mf"/><s n = "pl"/><s n="gen"/></r></p></e>      
+      <e><p><l>के</l><r>कीया<s n="prn"/><s n="itg"/><s n="mf"/><s n = "sp"/><s n="erg"/></r></p></e>
+      <e><p><l>कैमें</l><r>कीया<s n="prn"/><s n="itg"/><s n="mf"/><s n = "sp"/><s n="loc"/></r></p></e>	
   </pardef>
 
     <pardef n="सब__prn">
@@ -1289,7 +1292,7 @@
     <e lm="हम"><i>ह</i><par n="ह/म__prn"/></e>
     <e lm="तुंह"><i></i><par n="/तुंह__prn"/></e>
     <e lm="इ"><i></i><par n="/इ__prn"/></e>
-    <e lm="कीया"><i></i><par n="/का__prn"/></e>
+    <e lm="कीया"><i></i><par n="/कीया__prn"/></e>
     <e lm="सब"><i>सब</i><par n="सब__prn"/></e>
     <e lm="ख़ुद"><i>ख़ुद</i><par n="सब__prn"/></e>
     <e lm="आप"><i>आप</i><par n="आप__prn"/></e>
@@ -1672,7 +1675,9 @@
     <e lm="य सब"><i>य</i><par n="य/_सब__det"/></e>
     <e lm="उ सब"><i>उ</i><par n="उ/_सब__det"/></e>
     <e lm="पिछल वाला"><i>पिछल</i><par n="पिछल/_वाला__det"/></e>
-    
+
+  	<e lm="कीया"><i>कीया</i><par n="सब__det"/></e>
+
 
   </section>
 
