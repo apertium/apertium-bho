@@ -34,9 +34,6 @@ $(LANG1).autogen.att.gz: $(LANG1).autogen.bin
 $(LANG1).automorf.att.gz: $(LANG1).automorf.bin
 	lt-print $< | gzip -9 -c -n > $@
 
-$(LANG1).autopgen.bin: $(BASENAME).post-$(LANG1).dix
-	lt-comp lr $< $@
-
 ###############################################################################
 ## Disambiguation rules
 ###############################################################################
@@ -57,7 +54,6 @@ $(LANG1).prob: corpus/$(LANG1).tagged
 EXTRA_DIST=$(BASENAME).$(LANG1).dix		\
 		$(BASENAME).$(LANG1).acx	\
 		$(BASENAME).$(LANG1).rlx	\
-		$(BASENAME).post-$(LANG1).dix	\
 		$(LANG1).prob			\
 		modes.xml
 
@@ -81,7 +77,6 @@ noinst_DATA=modes/$(LANG1)-morph.mode
 install-data-local: install-modes
 	$(INSTALL_DATA) $(BASENAME).$(LANG1).dix $(DESTDIR)$(apertium_bho_srcdir)
 	$(INSTALL_DATA) $(BASENAME).$(LANG1).rlx $(DESTDIR)$(apertium_bho_srcdir)
-	$(INSTALL_DATA) $(BASENAME).post-$(LANG1).dix $(DESTDIR)$(apertium_bho_srcdir)
 
 CLEANFILES = $(TARGETS_COMMON)
 clean-local:
